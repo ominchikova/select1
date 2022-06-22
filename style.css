@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sacramento', cursive;
+    font-size: large;
+    background-color: #F0FFFF;
+
+}
+.select {
+    max-height: 300px;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+h1{
+    font-size: xxx-large;
+
+}
+.container{
+    position: relative;
+    font-size: 24px;
+    width: 300px;
+
+}
+
+.select__label{
+    width: 100%;
+    max-height: 50px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #006400;
+    border: none;
+    /*text-align: center;*/
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 8px;
+    border-radius: 10px;
+
+}
+.select__drop-down{
+    width: 100%;
+    max-height: 250px;
+    min-height: 50px;
+    margin-top: 5px;
+    background-color: #3CB371;
+    border-radius: 5px;
+    box-shadow: black;
+    position: relative;
+    left: 0;
+    overflow: auto;
+    display: inline-block;
+    z-index: 2;
+}
+
+
+.select__drop-down:hover {
+    border-color:  black;
+    background-color:#2E8B57;
+    display: block;
+}
+
+.select__item {
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+
+
+
+
